@@ -107,5 +107,61 @@ style="width:350px;height:240px;"><br>Desing by Freepik</p>
 Clique aqui</a> para WhatsApp</p>
 <p><a href="mailto:muaythai@examplo.com">Clique aqui</a> para enviar um e-mail.</p>
 
+<h2 style="color:#970C10">Fórmulario</h2>
+
+<form action="." target="_blank" method="post">
+
+
+<fieldset>
+  <legend style="color:#970C10">Informações Pessoais:</legend>
+  <label for="nome">Nome completo:</label><br>
+  <input type="text" id="nome" name="nome" minlength="10" maxlength="50" style="border-radius: 10px" required><br><br>
+  
+    <label for="email">Digite seu email:</label><br>
+    <input type="email" id="email" name="email" minlength="5" maxlength="254" placeholder="nome@exemplo.com" style="border-radius: 10px" required><br><br>
+    
+      <label for="data"> Data de nascimento:</label><br>
+      <input type="date" id="data" name="data" style="border-radius: 10px" required><br><br>
+      
+   <label for="senha">Senha:</label><br>
+   <input type="password" id="senha" name="senha" minlength="8" maxlength="20" placeholder="********" style="border-radius: 10px" required><br><br>
+
+  <label for="tel">Número de telefone:</label><br>
+  <input type="tel" id="tel" name="tel" minlength="11" maxlength="11" placeholder="(XX) XXXXX-XXXX" style="border-radius: 10px" required><br><br>
+  
+  </fieldset>          
+
+ <fieldset>
+  <legend style="color:#970C10">Informações Adicionais:</legend> 
+  <label for="país">Selecione um país:</label>
+  <select id="país" name="país" style="border-radius: 10px" required>
+
+    <option value="Brasil">Brasil</option>
+    <option value="Portugal">Portugal</option>
+    <option value="Espanha">Espanha</option>
+    <option value="Argentina">Argentina</option>
+  </select><br>
+  
+<p>Selecione seu gênero:</p>
+
+  <input type="radio" id="feminino" name="gênero" value="Feminino" required>
+  <label for="feminino">Feminino</label><br>
+  <input type="radio" id="masculino" name="gênero" value="Masculino">
+  <label for="masculino">Masculino</label><br>
+  <input type="radio" id="outro" name="gênero" value="Outro">
+  <label for="outro">Outro</label><br><br>
+  
+   <input type="checkbox" id="termos" name="termos" required>
+   <label for="termos">Aceito os termos e condições</label><br>
+                
+  <p><label for="comentário">Digite um comentário:</label></p>
+  <textarea id="comentário" name="comentário" minlength="10" maxlength="200" placeholder="Comentário..." style="border-radius: 10px"></textarea>
+ 
+ </fieldset>
+  
+  <input type="submit" value="Enviar" style="border-radius: 10px">
+   <input type="reset" value="Reiniciar" style="border-radius:10px">
+</form>
+
 </body>
 </html>  <!--Fim da estrutura -->
